@@ -1,0 +1,11 @@
+{
+  "name": "automation_cypress_demoblaze",
+  "version": "1.0.0",
+  "description": "Automatizacion con Cypress de la pagina 'https://www.demoblaze.com/' usando Page Object Model.",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -11,4 +11,9 @@ export class CommonPageHelper {  // Metodos comunes y ACCIONES
   static clickOnSignUpOption() { // Llamamos al metodo de comonpageElements
     CommonPageElements.topMenu.signUp.click();
   }
+
+  static clickOnloginOption() {
+
+    CommonPageElements.topMenu.login.click();
+  }
 }
