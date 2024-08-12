@@ -8,6 +8,14 @@ export class CommonPageElements {
 
       get login() {  // Login
         return cy.get('#login2')
+      },
+
+      get nameOfUser() { // Nombre de usuario
+        return cy.get('#nameofuser')
+      },
+
+      get home() {
+        return cy.get('.active > .nav-link')
       }
     }
 

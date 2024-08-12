@@ -1,6 +1,6 @@
 import { LogInElements } from "./log-in.elements";
 
-export class LogInHelper { // Metodos
+export class LogInHelper { // Metodos  y accion
 
   static insertUsername(username) {
     LogInElements.elements.username.type(username)

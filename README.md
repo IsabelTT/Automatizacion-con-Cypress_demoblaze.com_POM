@@ -5,3 +5,4 @@ Componentes
 - Common page
 - sign up: Crear nuevo usuario nuevo 
 - Login :  Logear usuario creado
+- Home page

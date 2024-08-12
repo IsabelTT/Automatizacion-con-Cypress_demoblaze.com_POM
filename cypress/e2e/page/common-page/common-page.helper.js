@@ -16,4 +16,13 @@ export class CommonPageHelper {  // Metodos comunes y ACCIONES
 
     CommonPageElements.topMenu.login.click();
   }
+
+  static verifySignedUser(username) { // Metodo para verficar que contenga el nombre de usuario logeado
+    CommonPageElements.topMenu.nameOfUser.should('contain', `Welcome ${username}`)
+  }
+
+  static clickOnHomePage() {
+    CommonPageElements.topMenu.home.click()
+
+  }
 }
