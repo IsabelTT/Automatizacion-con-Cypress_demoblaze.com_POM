@@ -1,6 +1,6 @@
 export class CommonPageElements {
   //Web elements:Lo organizaremos por el tipo
-  static get topMenu() {// Top Menu: que tendra metodos para acceder a las diferentes pestañas de barra de navegacion.
+  static get topMenu() {// Top Menu: que tendra metodos para acceder a las diferentes pestañas de barra de navegacion. - comunes
     return {
       get signUp() { // signup                                            
         return cy.get('#signin2')
@@ -16,8 +16,13 @@ export class CommonPageElements {
 
       get home() {
         return cy.get('.active > .nav-link')
+      },
+
+      get cart() {
+        return cy.get('#cartur')
       }
     }
+
 
   }
 

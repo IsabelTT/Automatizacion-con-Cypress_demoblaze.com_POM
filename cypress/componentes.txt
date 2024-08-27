@@ -1,0 +1,8 @@
+Componentes
+- Common page: Contiene barra de navegacion 
+- sign up: Creacion de nuevo usuario nuevo 
+- Login :  Login usuario creado
+- Home page : Muestra lista de productos
+- Products:  Seleccion de producto
+- Cart: Carrito de compras del producto
+- Place Order: Subseccion de carrito de compras( contiene formulario )

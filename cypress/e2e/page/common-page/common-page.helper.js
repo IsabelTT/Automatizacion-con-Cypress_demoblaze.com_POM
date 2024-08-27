@@ -25,4 +25,9 @@ export class CommonPageHelper {  // Metodos comunes y ACCIONES
     CommonPageElements.topMenu.home.click()
 
   }
+
+  static clickOnCartOption() {
+    CommonPageElements.topMenu.cart.click()
+  }
+
 }
